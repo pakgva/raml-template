@@ -1,0 +1,26 @@
+{
+  "name": "raml-template",
+  "version": "1.0.0",
+  "description": "RAML template project for FrontEnd Labs",
+  "author": "pakgva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "raml2html": "^6.4.1",
+    "ejs": "^2.5.7"
+  },
+  "scripts": {
+    "html": "raml2html ./api.raml > ./views/index.html",
+    "predoc": "npm run html",
+    "doc": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pakgva/raml-template"
+  },
+  "keywords": [
+    "raml",
+    "express"
+  ],
+  "homepage": ""
+}

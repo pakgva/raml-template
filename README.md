@@ -1,0 +1,2 @@
+# raml-template
+RAML template
